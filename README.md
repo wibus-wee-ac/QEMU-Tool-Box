@@ -12,21 +12,25 @@ A program that helps users use the QEMU command
 由于其复杂，if-else用法已经废除，想去看看的话，也算了吧😂
 
 ## 项目开发
-swich-case用法经历了两个时期：无函数->函数控制
+swich-case用法经历了两个时期：无函数->函数控制。
 
-或许用词不是很标准，就是一开始的sc版的大部分代码是通过copy-paste来实现的
+或许用词不是很标准，就是一开始的sc版的大部分代码是通过copy-paste来实现的。但是由于此类代码不好维护，以及可读性感觉不太好，于是定义了一个函数进行输出判断控制
 
-但是由于此类代码不好维护，以及可读性感觉不太好
-
-于是定义了一个函数进行输出判断控制
-
-这个项目其实并没有使用其他比较难的东西，只有输入、输出、判断
-
-来来去去也就是scanf, printf, swich-case这三个
+这个项目其实并没有使用其他比较难的东西，只有输入、输出、判断，来来去去也就是scanf, printf, swich-case这三个
 
 代码中或许有一些非常幼稚的想法，或许会有一些完全没有必要但是我还是使用了的方法来实现某个功能的
 
 还请大佬纠错～～
+
+## 编译项目
+
+1. gcc in program's root dir
+    ```bash
+    cd Qemu\ Tool\ Box
+    gcc main.c
+    ```
+2. 打开`Qemu Tool Box.xcodeproj`点击run即可
+
 
 ## 开发历程
 
