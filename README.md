@@ -26,10 +26,8 @@ swich-case用法经历了两个时期：无函数->函数控制。
 
 1. gcc in program's root dir
     ```bash
-    cd Qemu\ Tool\ Box
     gcc main.c
     ```
-2. 打开`Qemu Tool Box.xcodeproj`点击run即可
 
 
 ## 开发历程
@@ -48,4 +46,4 @@ swich-case用法经历了两个时期：无函数->函数控制。
 
 2020.12.6 建立GitHub仓库
 
-
+2021.1.1 新增了hvf启动方式
