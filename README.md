@@ -4,6 +4,8 @@ A program that helps users use the QEMU command
 一个帮助用户使用QEMU命令的程序
 
 ## 关于项目
+GitHub仓库：https://github.com/wibus-wee/QEMU-Tool-Box
+
 使用C语言编写，历时几个月
 
 其中包括：学习C语言->了解QEMU命令->编写程序 的时间（还有学业繁忙没有更新的时间）
@@ -44,7 +46,7 @@ swich-case用法经历了两个时期：无函数->函数控制。
 
 2020.7～10 上学学业繁忙，并没有顾及此项目了
 
-2020.11 使用了函数控制，代码维护性增加
+2020.11 使用了函数控制，代码可维护性增加
 
 2020.12.6 建立GitHub仓库
 
