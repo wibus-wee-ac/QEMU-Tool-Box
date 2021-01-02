@@ -41,15 +41,15 @@ void idea(char idea[10]){
         scanf("%d",&start);
         if (start == 1) {
             printf("现在你可以复制以下代码进入终端并回车启动虚拟机了: \n");
-            printf("➡️ qemu-system-%s -m %d -hda %s -cdrom %s -boot c\n", idea, Memory, img, dvd);
+            printf("➡️ qemu-system-%s -m %d -hda %s -cdrom %s -boot c -M accel=hvf \n", idea, Memory, img, dvd);
         } else {
             printf("现在你可以复制以下代码进入终端并回车启动虚拟机了: \n");
-             printf("➡️ qemu-system-%s -m %d -hda %s -cdrom %s -boot d\n", idea, Memory, img, dvd);
+             printf("➡️ qemu-system-%s -m %d -hda %s -cdrom %s -boot d -M accel=hvf \n", idea, Memory, img, dvd);
         }
     } else {
 
             printf("现在你可以复制以下代码进入终端并回车启动虚拟机了: \n");
-            printf("➡️ qemu-system-%s -m %d -hda %s -boot c\n", idea, Memory, img);
+            printf("➡️ qemu-system-%s -m %d -hda %s -boot c -M accel=hvf \n", idea, Memory, img);
     }
     //END
 }
